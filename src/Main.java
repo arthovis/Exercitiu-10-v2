@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String s = input.nextLine();
-        noDuplicates1(s);
-        noDuplicates2(s);
+        System.out.println(noDuplicates1(s));
+        System.out.println(noDuplicates2(s));
 
     }
 
